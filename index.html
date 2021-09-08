@@ -7,11 +7,17 @@
     <link href="assets/img/favicon.png" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
     <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap" rel="stylesheet">
     <title>Portfolio Upgrade</title>
 </head>
 
 <body>
-    <header id="header" class="header-tops" scr="./images/coverpic.jpg">
+    <header id="header" class="header-tops" >
         <div class="container">
             <h1>Melissa Vint</a></h1>
             <h2>I'm a passionate <span>Graphic Designer / Web Developer</span> from North Carolina</h2>
@@ -19,7 +25,7 @@
                 <ul>
                     <li><a href="#about-me">About me</a></li>
                     <li><a href="#resume">Resume</a></li>
-                    <li><a href="#portfolio">My Work</a></li>
+                    <li><a href="#my-work">My Work</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
@@ -31,13 +37,15 @@
                     Behance</a>
             </div>
     </header>
-    <article id="about-me" class="about-me">
-        <img src="./images/picme.png" />
+
         <h2>About Me</h2>
-        <p>
-            kfekheakr fieufre efe egh dWQQHFQ FQFEWHGE EKQFQEKF
-            QFKGFKBWFK FQ3FW FK erggekhekf efrref
-        </p>
+        <div class="card">
+            <img class="card-img-top1" src="./images/picme.png" alt="Card image me">
+            <div class="card-body">
+              <p class="card-text">
+                  This code is designed to give the user a timed quiz! </p>
+            </div>
+          </div>
     </article>
     <article id="resume" class="resume">
        
@@ -54,13 +62,13 @@
             wkfgwkfwfwf
         </p>
     </article>
-    <article id="portfolio" class="portfolio">
+    <article id="my-work" class="my-work">
         <h2>My Work</h2>
         <div class="card">
             <img class="card-img-top" src="./images/ss30.png" alt="Card image cap">
             <div class="card-body">
               <p class="card-text">
-                  Some qSome quick example text to build on the card title andSome quick example text to build on the card title and make up the </p>
+                  This code is designed to give the user a timed quiz! </p>
             </div>
           </div>
           <div class="card">
@@ -78,7 +86,29 @@
             </div>
           </div>
     </article>
-
+    <article id="contact" class="contact">
+        <h2>Contact Me</h2>
+    <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Phone #</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="(+1) ">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Send it!</button>
+      </form>
 
 </body>
 </html>
