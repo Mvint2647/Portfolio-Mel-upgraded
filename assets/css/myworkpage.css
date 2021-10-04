@@ -134,6 +134,18 @@ a:hover {
     transform:perspective(800px)rotateY(0deg);
     opacity:1;
   }
+
+footer {
+  margin-top: 20px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 0, 0);
+  font-size: 20px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 999;
+}
 }
 @media (max-width: 375px) {
   
