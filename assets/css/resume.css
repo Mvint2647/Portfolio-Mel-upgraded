@@ -1,2 +1,19 @@
+* {
+    box-sizing: border-box;
+  }
+  
 
-
+body {
+    color: white;
+    font-family: Montserrat, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(/assets/images/picbackground.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+  }
